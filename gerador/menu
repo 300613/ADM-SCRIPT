@@ -96,7 +96,7 @@ atualiza_fun () {
 cd $HOME
 tput cuu1 && tput dl1
 msg -bar2
-msg -ama "$(fun_trans "ATUALIZADOR ADM SCRIPTS"): \033[1;31m[NEW-ULTIMATE]"
+msg -ama "$(fun_trans "ATUALIZADOR ADM SCRIPTS"): \033[1;31m[ADM-SCRIPT]"
 msg -verm "$(fun_trans "Ao Prosseguirmos Dados como Tempo de uso Serao Perdidos"): "
 msg -bar2
 while [[ $Key != @(s|S|y|Y|n|N) ]]; do
